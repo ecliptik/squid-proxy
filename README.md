@@ -10,6 +10,11 @@ A practical example is following the [Rancher ELK Guide](http://rancher.com/runn
 
 ## Usage
 
+Build the container
+```
+docker build -t squid-proxy .
+```
+
 Start Docker container
 ```
 docker run -d -p 3128:3128 squid-proxy
